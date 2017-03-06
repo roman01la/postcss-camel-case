@@ -13,7 +13,7 @@ module.exports = postcss.plugin('postcss-camel-case', function() {
 
     return function (css) {
 
-        css.eachRule(function (rule) {
+        css.walkRules(function (rule) {
 
             rule.selector = rule.selector.replace(pattern, replacer);
         });
