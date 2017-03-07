@@ -1,6 +1,6 @@
 {
     "name": "postcss-camel-case",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "PostCSS plugin to convert CSS selector names to camelCase",
     "keywords": ["postcss", "css", "postcss-plugin", "selector", "camel case"],
     "author": "Roman Liutikov <roman01la@romanliutikov.com>",
