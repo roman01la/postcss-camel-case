@@ -19,6 +19,6 @@
         "gulp":        "^3.8.11"
     },
     "scripts": {
-        "test": "gulp"
+        "test": "gulp test"
     }
 }
