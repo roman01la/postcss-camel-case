@@ -23,7 +23,11 @@ describe('postcss-camel-case', function() {
             test('.Block_Element--Modifier {}', '.blockElementModifier {}', {}, done);
         });
 
-        it('should convert lowercased kebab-case names', function(done) {
+        it('should convert kebab-cased names', function(done) {
             test('.test-class-with-modifier {}', '.testClassWithModifier {}', {}, done);
+        });
+
+        it('should convert snake_cased names', function(done) {
+            test('.test_class_with_modifier {}', '.testClassWithModifier {}', {}, done);
         });
 });
