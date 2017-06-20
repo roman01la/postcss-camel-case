@@ -1,6 +1,6 @@
 {
     "name": "postcss-camel-case",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "PostCSS plugin to convert CSS selector names to camelCase",
     "keywords": ["postcss", "css", "postcss-plugin", "selector", "camel case"],
     "author": "Roman Liutikov <roman01la@romanliutikov.com>",
@@ -10,7 +10,7 @@
         "url":  "https://github.com/roman01la/postcss-camel-case.git"
     },
     "dependencies": {
-        "postcss": "^4.1.9"
+        "postcss": "^6.0.2"
     },
     "devDependencies": {
         "gulp-eslint": "^0.12.0",
@@ -19,6 +19,6 @@
         "gulp":        "^3.8.11"
     },
     "scripts": {
-        "test": "gulp"
+        "test": "gulp test"
     }
 }
