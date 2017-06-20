@@ -13,13 +13,17 @@ var test = function (input, output, opts, done) {
     });
 };
 
+
 describe('postcss-camel-case', function() {
+        it('should convert BEM style class names', function (done) {
+            test('.block_element--modifier {}', '.blockElementModifier {}', {}, done);
+        });
 
-    it('should convert BEM style class names', function (done) {
-        test('.block_element--modifier {}', '.blockElementModifier {}', {}, done);
-    });
-
-    it('should convert uppercased BEM style class names', function (done) {
-        test('.Block_Element--Modifier {}', '.blockElementModifier {}', {}, done);
-    });
+        it('should convert uppercased BEM style class names', function (done) {
+            test('.Block_Element--Modifier {}', '.blockElementModifier {}', {}, done);
+        });
+    //
+    //    it('should convert lowercased kebab-case names', function(done) {
+    //        test('.test-class-with-modifier', '.testClassWithModifier {}', {}, done);
+    //    });
 });

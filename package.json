@@ -10,7 +10,7 @@
         "url":  "https://github.com/roman01la/postcss-camel-case.git"
     },
     "dependencies": {
-        "postcss": "^4.1.9"
+        "postcss": "^6.0.2"
     },
     "devDependencies": {
         "gulp-eslint": "^0.12.0",
