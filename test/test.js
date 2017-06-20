@@ -22,8 +22,8 @@ describe('postcss-camel-case', function() {
         it('should convert uppercased BEM style class names', function (done) {
             test('.Block_Element--Modifier {}', '.blockElementModifier {}', {}, done);
         });
-    //
-    //    it('should convert lowercased kebab-case names', function(done) {
-    //        test('.test-class-with-modifier', '.testClassWithModifier {}', {}, done);
-    //    });
+
+        it('should convert lowercased kebab-case names', function(done) {
+            test('.test-class-with-modifier {}', '.testClassWithModifier {}', {}, done);
+        });
 });
