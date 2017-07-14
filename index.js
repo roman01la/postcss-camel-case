@@ -1,6 +1,6 @@
 var postcss = require('postcss');
 
-var pattern = /[-_.]+([a-zA-Z])/g;
+var pattern = /[-_.]+([a-zA-Z0-9])/g;
 
 function replacer (g) {
 
